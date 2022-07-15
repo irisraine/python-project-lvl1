@@ -7,11 +7,11 @@ GREET_MESSAGE = 'Find the greatest common divisor of given numbers.'
 
 
 def stage():
-    current_first_number, current_second_number = randint(1, 100), randint(1, 100)
-    print(f'Question: {current_first_number} {current_second_number}')
-    current_answer = prompt.string('Your answer: ')
-    current_correct_answer = gcd(current_first_number, current_second_number)
-    return is_correct_answer(current_answer, str(current_correct_answer))
+    first_number, second_number = randint(1, 100), randint(1, 100)
+    print(f'Question: {first_number} {second_number}')
+    answer = prompt.string('Your answer: ')
+    correct_answer = gcd(first_number, second_number)
+    return is_correct_answer(answer, str(correct_answer))
 
 
 def gcd(number_one, number_two):
