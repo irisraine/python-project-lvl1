@@ -1,9 +1,12 @@
 from random import randint
-from brain_games.verification.is_correct import is_correct_answer
+from brain_games.common.engine import is_correct_answer
 import prompt
 
 
-def gcd_stage():
+GREET_MESSAGE = 'Find the greatest common divisor of given numbers.'
+
+
+def stage():
     current_first_number, current_second_number = randint(1, 100), randint(1, 100)
     print(f'Question: {current_first_number} {current_second_number}')
     current_answer = prompt.string('Your answer: ')

@@ -1,9 +1,12 @@
-from brain_games.verification.is_correct import is_correct_answer
+from brain_games.common.engine import is_correct_answer
 from random import randint
 import prompt
 
 
-def even_stage():
+GREET_MESSAGE = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def stage():
     current_number = randint(1, 100)
     print(f'Question: {current_number}')
     current_answer = prompt.string('Your answer: ')

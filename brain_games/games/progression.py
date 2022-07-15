@@ -1,9 +1,12 @@
 from random import randint
-from brain_games.verification.is_correct import is_correct_answer
+from brain_games.common.engine import is_correct_answer
 import prompt
 
 
-def progression_stage():
+GREET_MESSAGE = 'What number is missing in the progression?'
+
+
+def stage():
     progression_length = randint(5, 10)
     progression_start = randint(1, 25)
     progression_step = randint(2, 7)
