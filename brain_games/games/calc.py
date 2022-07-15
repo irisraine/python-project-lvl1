@@ -11,5 +11,4 @@ def calc_stage():
     print(f'Question: {current_expression}')
     current_correct_answer = eval(current_expression)
     current_answer = prompt.string('Your answer: ')
-    if (is_correct_answer(current_answer, str(current_correct_answer))):
-        return True
+    return is_correct_answer(current_answer, str(current_correct_answer))

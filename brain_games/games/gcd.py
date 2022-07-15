@@ -8,8 +8,7 @@ def gcd_stage():
     print(f'Question: {current_first_number} {current_second_number}')
     current_answer = prompt.string('Your answer: ')
     current_correct_answer = gcd(current_first_number, current_second_number)
-    if (is_correct_answer(current_answer, str(current_correct_answer))):
-        return True
+    return is_correct_answer(current_answer, str(current_correct_answer))
 
 
 def gcd(number_one, number_two):
