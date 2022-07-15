@@ -11,17 +11,17 @@ def stage():
     progression_start = randint(1, 25)
     progression_step = randint(2, 7)
     progression_hidden_element_position = randint(0, progression_length - 1)
-    current_progression = []
-    current_progression_as_string = ""
+    progression = []
+    progression_as_string = ""
 
     for i in range(progression_length):
-        current_progression.append(progression_start + i * progression_step)
+        progression.append(progression_start + i * progression_step)
         if (i != progression_hidden_element_position):
-            current_progression_as_string += f'{current_progression[i]} '
+            progression_as_string += f'{progression[i]} '
         else:
-            current_progression_as_string += '.. '
+            progression_as_string += '.. '
 
-    print(f'Question: {current_progression_as_string}')
-    current_answer = prompt.string('Your answer: ')
-    current_correct_answer = current_progression[progression_hidden_element_position]
-    return is_correct_answer(current_answer, str(current_correct_answer))
+    print(f'Question: {progression_as_string}')
+    answer = prompt.string('Your answer: ')
+    correct_answer = progression[progression_hidden_element_position]
+    return is_correct_answer(answer, str(correct_answer))
