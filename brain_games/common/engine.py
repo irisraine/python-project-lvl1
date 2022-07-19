@@ -9,15 +9,15 @@ def welcome_user():
 
 
 def launch(game):
-    username = welcome_user()
+    name = welcome_user()
     print(game.GREET_MESSAGE)
-    guessing_loop(username, game.stage)
+    guessing_loop(name, game.stage)
 
 
-def guessing_loop(name, game_stage):
+def guessing_loop(name, stage):
     number_of_correct_answers = 0
     for _ in range(3):
-        question, correct_answer = game_stage()
+        question, correct_answer = stage()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if (is_correct_answer(answer, correct_answer)):
