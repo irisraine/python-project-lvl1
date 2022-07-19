@@ -1,5 +1,4 @@
 import prompt
-import importlib
 
 
 def welcome_user():
@@ -11,14 +10,8 @@ def welcome_user():
 
 def launch(game):
     username = welcome_user()
-    game = f'brain_games.games.{game}'
-    current_game = importlib.import_module(game)
-    print(current_game.GREET_MESSAGE)
-    guessing_loop(username, current_game.stage)
-
-
-def ask_question(question):
-    return (f'Question: {question}')
+    print(game.GREET_MESSAGE)
+    guessing_loop(username, game.stage)
 
 
 def guessing_loop(name, game_stage):
