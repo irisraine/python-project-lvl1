@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 from brain_games.common.engine import launch
-import brain_games.games.prime
+from brain_games.games import prime
 
 
 def main():
-    launch(brain_games.games.prime)
+    launch(prime)
