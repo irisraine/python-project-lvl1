@@ -5,7 +5,7 @@ NUMBER_OF_STAGES = 3
 
 
 def launch(game):
-    """ Запуск полного игрового цикла. """
+    """ Запуск полного игрового цикла."""
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(game.GREET_MESSAGE)

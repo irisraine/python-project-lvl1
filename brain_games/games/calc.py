@@ -7,7 +7,7 @@ NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT = 1, 100
 
 
 def single_game_stage():
-    """Единичный этап игры. """
+    """Единичный этап игры."""
     arithmetic_operations = ['+', '-', '*']
     first_number = randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     second_number = randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)

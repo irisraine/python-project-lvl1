@@ -7,7 +7,7 @@ NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT = 1, 100
 
 
 def single_game_stage():
-    """Единичный этап игры. """
+    """Единичный этап игры."""
     first_number = randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     second_number = randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     question = f'{first_number} {second_number}'
@@ -17,7 +17,7 @@ def single_game_stage():
 
 
 def gcd(number_one, number_two):
-    """Получение наибольшего общего делителя числа. """
+    """Получение наибольшего общего делителя числа."""
     number_remainder = max(number_one, number_two) % min(number_one, number_two)
 
     if number_remainder == 0:

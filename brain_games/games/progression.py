@@ -9,7 +9,7 @@ STEP_LOWER_LIMIT, STEP_UPPER_LIMIT = 2, 9
 
 
 def single_game_stage():
-    """Единичный этап игры. """
+    """Единичный этап игры."""
     progression_length = randint(LENGTH_LOWER_LIMIT, LENGTH_UPPER_LIMIT)
     progression_start = randint(START_LOWER_LIMIT, START_UPPER_LIMIT)
     progression_step = randint(STEP_LOWER_LIMIT, STEP_UPPER_LIMIT)
