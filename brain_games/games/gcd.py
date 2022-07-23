@@ -18,9 +18,9 @@ def single_game_stage():
 
 def gcd(number_one, number_two):
     """Получение наибольшего общего делителя числа."""
-    number_remainder = max(number_one, number_two) % min(number_one, number_two)
+    remainder = max(number_one, number_two) % min(number_one, number_two)
 
-    if number_remainder == 0:
+    if remainder == 0:
         return min(number_one, number_two)
     else:
-        return gcd(min(number_one, number_two), number_remainder)
+        return gcd(min(number_one, number_two), remainder)
