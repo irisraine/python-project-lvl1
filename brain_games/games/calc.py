@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, choice
 
 
 GREET_MESSAGE = 'What is the result of the expression?'
@@ -11,7 +11,7 @@ def single_game_stage():
     arithmetic_operations = ['+', '-', '*']
     first_number = randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     second_number = randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
-    arithmetic_operation = arithmetic_operations[randint(0, 2)]
+    arithmetic_operation = choice(arithmetic_operations)
     question = f'{first_number} {arithmetic_operation} {second_number}'
 
     if arithmetic_operation == "+":
