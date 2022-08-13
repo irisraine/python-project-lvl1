@@ -6,7 +6,7 @@ authors = ["Iris-Raine <iris.raine.darkest.star@gmail.com>"]
 packages = [
   { include = "brain_games" },
 ]
-repository = "https://github.com/Iris-Raine/python-project-lvl1"
+repository = "https://github.com/irisraine/python-project-lvl1"
 
 [tool.poetry.dependencies]
 python = "^3.8"
