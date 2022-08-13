@@ -30,14 +30,14 @@ Use the following commands to launch a specific game
 *"Is even" installation and gameplay:*
 [![asciicast](https://asciinema.org/a/508358.svg)](https://asciinema.org/a/508358)
 
-*"Calculation" installation and gameplay:*
+*"Calculation" gameplay:*
 [![asciicast](https://asciinema.org/a/508583.svg)](https://asciinema.org/a/508583)
 
-*"Greatest common divisor" installation and gameplay:*
+*"Greatest common divisor" gameplay:*
 [![asciicast](https://asciinema.org/a/508598.svg)](https://asciinema.org/a/508598)
 
-*"Progression" installation and gameplay:*
+*"Progression" gameplay:*
 [![asciicast](https://asciinema.org/a/508621.svg)](https://asciinema.org/a/508621)
 
-*"Is prime" installation and gameplay:*
+*"Is prime" gameplay:*
 [![asciicast](https://asciinema.org/a/508632.svg)](https://asciinema.org/a/508632)
