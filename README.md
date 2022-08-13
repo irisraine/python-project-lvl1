@@ -11,7 +11,7 @@ Educational project. The set of five simple console games.
 ### Installation
 
 1. Clone git repository to your local machine: `git@github.com:irisraine/python-project-lvl1.git`
-2. Go to the game directory: `cd cd python-project-lvl1`
+2. Go to the game directory: `cd python-project-lvl1`
 3. You must have Poetry to build the project. Use `poetry build` command for creating the package.
 4. For installation use `python3 -m pip install --user dist/*.whl` command, or `make package-install`
 
