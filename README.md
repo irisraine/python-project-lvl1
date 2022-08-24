@@ -6,11 +6,11 @@
 
 ### Description
 
-Educational project. The set of five simple console games.
+Educational project. The set of five simple console math games.
 
 ### Installation
 
-1. Clone git repository to your local machine: `git@github.com:irisraine/python-project-lvl1.git`
+1. Clone git repository to your local machine: `git clone git@github.com:irisraine/python-project-lvl1.git`
 2. Go to the game directory: `cd python-project-lvl1`
 3. You must have Poetry to build the project. Use `poetry build` command for creating the package.
 4. For installation use `python3 -m pip install --user dist/*.whl` command, or `make package-install`
@@ -28,7 +28,7 @@ Use the following commands to launch a specific game
 ### Demonstraion
 
 *"Is even" installation and gameplay:*
-[![asciicast](https://asciinema.org/a/508358.svg)](https://asciinema.org/a/508358)
+[![asciicast](https://asciinema.org/a/508358.svg)](https://asciinema.org/a/516896)
 
 *"Calculation" gameplay:*
 [![asciicast](https://asciinema.org/a/508583.svg)](https://asciinema.org/a/508583)
