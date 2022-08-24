@@ -28,7 +28,7 @@ Use the following commands to launch a specific game
 ### Demonstraion
 
 *"Is even" installation and gameplay:*
-[![asciicast](https://asciinema.org/a/508358.svg)](https://asciinema.org/a/516896)
+[![asciicast](https://asciinema.org/a/516896.svg)](https://asciinema.org/a/516896)
 
 *"Calculation" gameplay:*
 [![asciicast](https://asciinema.org/a/508583.svg)](https://asciinema.org/a/508583)
