@@ -1,7 +1,8 @@
-# Игнорируется директория в любой директории проекта
+# Ignore directory in any project's directiories
 __pycache__
 .venv
 .vscode
+.idea
 
-# Игнорируются все файлы с расширением *.pyc в любой директории проекта
+# Ignore all temporary *.pyc files in any project's directiories
 *.pyc
